@@ -16,7 +16,7 @@ namespace MCEightToTen.Services
             Random random = new Random();
             numToGuess = random.Next(1, maxNum+1);
 
-            if (number > maxNum)
+            if (number > maxNum || number < 0)
             {return "Please enter a number within the specified range.";}
             else if (number > numToGuess)
             {   

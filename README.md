@@ -4,7 +4,7 @@
 
  // MC Eight To Ten
 
- // Design an API based on mini challenges from the Combine, each with their own service file, own controller, and data validation.
+ // Designed an API based on mini challenges from the Combine, each with their own service file, own controller, and data validation.
 
 //Endpoints:
 

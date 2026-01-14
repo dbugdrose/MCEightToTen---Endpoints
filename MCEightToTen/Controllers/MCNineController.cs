@@ -21,21 +21,21 @@ namespace MCEightToTen.Controllers
 
         [HttpPost("GuessANumber1to10/{number}")] 
         public string GuessEasyNumber(int number)
-        {   _mcNineServices.maxNum = 11;
+        {   _mcNineServices.maxNum = 10;
             return _mcNineServices.RandomizeNumber(number);
         }
 
 
         [HttpPost("GuessANumber1to50/{number}")] 
         public string GuessMediumNumber(int number)
-        {   _mcNineServices.maxNum = 51;
+        {   _mcNineServices.maxNum = 50;
             return _mcNineServices.RandomizeNumber(number);
         }
 
         [HttpPost("GuessANumber1to100/{number}")] 
 
         public string GuessHardNumber(int number)
-        {    _mcNineServices.maxNum = 101;
+        {    _mcNineServices.maxNum = 100;
             return _mcNineServices.RandomizeNumber(number);
         }
     }

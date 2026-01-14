@@ -145,3 +145,4 @@ C:\Users\darcy\OneDrive\Documents\Academy\level2\week2\MCEightToTen - Endpoints\
 C:\Users\darcy\OneDrive\Documents\Academy\level2\week2\MCEightToTen - Endpoints\MCEightToTen\obj\Debug\net9.0\MCEightToTen.pdb
 C:\Users\darcy\OneDrive\Documents\Academy\level2\week2\MCEightToTen - Endpoints\MCEightToTen\obj\Debug\net9.0\MCEightToTen.genruntimeconfig.cache
 C:\Users\darcy\OneDrive\Documents\Academy\level2\week2\MCEightToTen - Endpoints\MCEightToTen\obj\Debug\net9.0\ref\MCEightToTen.dll
+C:\Users\darcy\OneDrive\Documents\Academy\level2\week2\MCEightToTen - Endpoints\MCEightToTen\obj\Debug\net9.0\MCEightToTen.sourcelink.json

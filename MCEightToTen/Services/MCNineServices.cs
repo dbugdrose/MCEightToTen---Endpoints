@@ -14,9 +14,11 @@ namespace MCEightToTen.Services
         public string RandomizeNumber(int number)
         { 
             Random random = new Random();
-            numToGuess = random.Next(1, maxNum);
+            numToGuess = random.Next(1, maxNum+1);
 
-            if (number > numToGuess)
+            if (number > maxNum)
+            {return "Please enter a number within the specified range.";}
+            else if (number > numToGuess)
             {   
                 return $"Too high! The number was actually {numToGuess}.";
                 
@@ -24,8 +26,8 @@ namespace MCEightToTen.Services
             else if (number < numToGuess)
             { return $"Too low! The number was actually {numToGuess}."; }
             else
-            {   numToGuess = 0;
-                return $"You guessed correctly! The number was {numToGuess}.";
+            { 
+            return $"You guessed correctly! The number was {numToGuess}.";
 
             }
         }
